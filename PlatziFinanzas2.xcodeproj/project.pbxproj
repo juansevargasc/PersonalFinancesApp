@@ -24,6 +24,12 @@
 		B9A155F725881FD3002E4B49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A155F625881FD3002E4B49 /* MapKit.framework */; };
 		B9A155F82588201A002E4B49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9A155F625881FD3002E4B49 /* MapKit.framework */; };
 		B9A1560F25882418002E4B49 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9A1560E25882418002E4B49 /* View.xib */; };
+		B9CC2E6B2589A80A00DF9F0B /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E6A2589A80A00DF9F0B /* Transactions.storyboard */; };
+		B9CC2E762589A9C900DF9F0B /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E742589A9C900DF9F0B /* Statistics.storyboard */; };
+		B9CC2E7C2589A9DF00DF9F0B /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E7B2589A9DF00DF9F0B /* Budget.storyboard */; };
+		B9CC2E832589A9F900DF9F0B /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E812589A9F900DF9F0B /* Add.storyboard */; };
+		B9CC2E892589AA1600DF9F0B /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E882589AA1600DF9F0B /* Profile.storyboard */; };
+		B9CC2E962589AF9100DF9F0B /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CC2E952589AF9100DF9F0B /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		B9A155E825881F72002E4B49 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/juansevargas/Documents/Carpetas/Platzi/Swift/DesarolloInterfaces_iOS/PlatziFin2/PlatziFinanzas2/Production.plist; sourceTree = "<absolute>"; };
 		B9A155F625881FD3002E4B49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B9A1560E25882418002E4B49 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		B9CC2E6A2589A80A00DF9F0B /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		B9CC2E752589A9C900DF9F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas2/Application/Main/Main/Base.lproj/Statistics.storyboard; sourceTree = "<group>"; };
+		B9CC2E7B2589A9DF00DF9F0B /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		B9CC2E822589A9F900DF9F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas2/Application/Main/Main/Base.lproj/Add.storyboard; sourceTree = "<group>"; };
+		B9CC2E882589AA1600DF9F0B /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		B9CC2E952589AF9100DF9F0B /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,9 @@
 		B9A1560025882144002E4B49 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B9CC2E902589AB1900DF9F0B /* Budget */,
+				B9CC2E8F2589AAFC00DF9F0B /* Statistics */,
+				B9CC2E8E2589AAF000DF9F0B /* Add */,
 				B9A1560525882183002E4B49 /* Main */,
 				B9A1560425882176002E4B49 /* Profile */,
 				B9A156032588216C002E4B49 /* Transactions */,
@@ -222,6 +237,7 @@
 		B9A156022588215E002E4B49 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				B9CC2E952589AF9100DF9F0B /* SignIn.storyboard */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -229,6 +245,7 @@
 		B9A156032588216C002E4B49 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				B9CC2E6A2589A80A00DF9F0B /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -236,6 +253,7 @@
 		B9A1560425882176002E4B49 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				B9CC2E882589AA1600DF9F0B /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -248,6 +266,30 @@
 				B9A1560E25882418002E4B49 /* View.xib */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		B9CC2E8E2589AAF000DF9F0B /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC2E812589A9F900DF9F0B /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		B9CC2E8F2589AAFC00DF9F0B /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC2E742589A9C900DF9F0B /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		B9CC2E902589AB1900DF9F0B /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC2E7B2589A9DF00DF9F0B /* Budget.storyboard */,
+			);
+			path = Budget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +416,13 @@
 				B9A1560F25882418002E4B49 /* View.xib in Resources */,
 				B9A155B225881C83002E4B49 /* LaunchScreen.storyboard in Resources */,
 				B9A155AF25881C83002E4B49 /* Assets.xcassets in Resources */,
+				B9CC2E762589A9C900DF9F0B /* Statistics.storyboard in Resources */,
 				B9A155AD25881C81002E4B49 /* Main.storyboard in Resources */,
+				B9CC2E7C2589A9DF00DF9F0B /* Budget.storyboard in Resources */,
+				B9CC2E962589AF9100DF9F0B /* SignIn.storyboard in Resources */,
+				B9CC2E892589AA1600DF9F0B /* Profile.storyboard in Resources */,
+				B9CC2E832589A9F900DF9F0B /* Add.storyboard in Resources */,
+				B9CC2E6B2589A80A00DF9F0B /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +519,22 @@
 				B9A155B125881C83002E4B49 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CC2E742589A9C900DF9F0B /* Statistics.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CC2E752589A9C900DF9F0B /* Base */,
+			);
+			name = Statistics.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CC2E812589A9F900DF9F0B /* Add.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CC2E822589A9F900DF9F0B /* Base */,
+			);
+			name = Add.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -599,7 +663,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWA92Z5UF2;
-				INFOPLIST_FILE = /Users/juansevargas/Documents/Carpetas/Platzi/Swift/DesarolloInterfaces_iOS/PlatziFin2/PlatziFinanzas2/PlatziFinanzas2/Base/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas2/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,7 +682,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWA92Z5UF2;
-				INFOPLIST_FILE = /Users/juansevargas/Documents/Carpetas/Platzi/Swift/DesarolloInterfaces_iOS/PlatziFin2/PlatziFinanzas2/PlatziFinanzas2/Base/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas2/Base/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
