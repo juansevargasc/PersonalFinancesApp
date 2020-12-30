@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92CD11A259BFB2600739A8C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92CD119259BFB2600739A8C /* Colors.xcassets */; };
 		B9A155A625881C81002E4B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A155A525881C81002E4B49 /* AppDelegate.swift */; };
 		B9A155A825881C81002E4B49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A155A725881C81002E4B49 /* SceneDelegate.swift */; };
 		B9A155AA25881C81002E4B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A155A925881C81002E4B49 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B92CD119259BFB2600739A8C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B9A155A225881C81002E4B49 /* PlatziFinanzas2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9A155A525881C81002E4B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9A155A725881C81002E4B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B92CD118259BFAF800739A8C /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				B92CD119259BFB2600739A8C /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		B9A1559925881C80002E4B49 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +202,7 @@
 		B9A155FD25882105002E4B49 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B92CD118259BFAF800739A8C /* Colors */,
 				B9A155FE25882111002E4B49 /* Images */,
 			);
 			path = Resources;
@@ -415,6 +426,7 @@
 			files = (
 				B9A1560F25882418002E4B49 /* View.xib in Resources */,
 				B9A155B225881C83002E4B49 /* LaunchScreen.storyboard in Resources */,
+				B92CD11A259BFB2600739A8C /* Colors.xcassets in Resources */,
 				B9A155AF25881C83002E4B49 /* Assets.xcassets in Resources */,
 				B9CC2E762589A9C900DF9F0B /* Statistics.storyboard in Resources */,
 				B9A155AD25881C81002E4B49 /* Main.storyboard in Resources */,
@@ -664,6 +676,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWA92Z5UF2;
 				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas2/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -683,6 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HWA92Z5UF2;
 				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas2/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
